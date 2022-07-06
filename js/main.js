@@ -37,10 +37,12 @@ function compared() {
 
 let contador = 0
 function textContent ( ){ 
-contador ++;
-count.innerHTML = contador;
+contador ++; 
+ count.innerHTML = contador;}
 
-}
+
+
+
 
 function handleclik(ev) {
   addNumber();
