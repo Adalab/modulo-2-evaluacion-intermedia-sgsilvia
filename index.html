@@ -5,11 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/main.css">
     <title>Document</title>
 </head>
 
 <body>
+    <main class="main">
+        <h1 class="title"> Adivina el número</h1>
 
+        <form class="form" action="">
+            <label class="label" for="number">Introduce aqui tu número :</label>
+            <input class="js-inputNumber inputNumber " type="number" id="number" name="number" min="1" max="100"
+                required>
+
+
+        </form>
+        <button class="js-btn  btn">Prueba</button>
+
+
+
+
+        <p class="js-clue clue">Pista: Escribe el numero y dale a prueba</p>
+        <p class="js-count count">Numero de intentos: 0</p>
+
+
+
+
+    </main>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
